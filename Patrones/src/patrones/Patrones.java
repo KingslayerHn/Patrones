@@ -39,7 +39,15 @@ public class Patrones {
                         "\nMarca: "+ miCarro.getMarca());
                 break;
             case 3:   
-                System.out.println("No se termino....");
+                int precioJugador = 112400;
+                futbolista Mbappe = new futbolista();
+                new ClubBarcelona(Mbappe);
+                new ClubRealMadrid(Mbappe);
+                
+                System.out.println("actualizar precio del jugador: ");
+                Mbappe.setEstado(precioJugador);
+                
+                
                 break;
             case 4:   
                 System.out.println("No se termino....");
